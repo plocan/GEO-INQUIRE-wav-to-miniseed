@@ -1,0 +1,38 @@
+# GEO-INQUIRE Audio Processing Tool - Conda Environment
+# 
+# To create this environment, run:
+#   conda env create -f environment.yml
+#
+# To activate:
+#   conda activate geoinquire
+#
+# Works on macOS (Intel and Apple Silicon), Windows, and Linux
+
+name: geoinquire
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  # Core audio processing
+  - numpy>=1.20.0
+  - scipy>=1.7.0
+  - libsndfile  # System library for soundfile
+  - soundfile>=0.10.0
+  # Audio metadata
+  - mutagen>=1.45.0
+  # Seismic data processing
+  - obspy>=1.4.0
+  # XML processing
+  - lxml>=4.6.0
+  # Date parsing
+  - python-dateutil>=2.8.0
+  # Visualization
+  - plotly>=5.0.0
+  # Image processing for GUI
+  - pillow>=8.0.0
+  # Jupyter environment
+  - jupyterlab
+  - ipywidgets
+  # GUI support
+  - tk

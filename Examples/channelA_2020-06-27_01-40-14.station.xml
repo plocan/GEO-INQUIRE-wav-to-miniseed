@@ -4,11 +4,11 @@
   <Sender>Geo-Enquire Data Converter and Metadata Tool, Silvana Neves, PLOCAN, Spain</Sender>
   <Module>ObsPy 1.4.2</Module>
   <ModuleURI>https://www.obspy.org</ModuleURI>
-  <Created>2026-01-19T10:53:26.160867Z</Created>
-  <Network code="YO" startDate="2020-06-27T01:40:14.000000Z" endDate="2020-06-27T01:49:46.784640Z">
-    <Description>GEO-INQUIRE Hydrophone Conversion Campaign | Identifier: https://doi.org/10.20366/edb.2073</Description>
-    <Identifier>https://doi.org/10.20366/edb.2073</Identifier>
-    <Station code="YO01" startDate="2020-06-27T01:40:14.000000Z" endDate="2020-06-27T01:49:46.784640Z">
+  <Created>2026-01-27T15:55:35.801884Z</Created>
+  <Network code="P" startDate="2020-06-27T00:40:14.000000Z" endDate="2020-06-27T00:49:46.784640Z">
+    <Description>PLOCAN Observatory Network | Identifier: https://doi.org/10.7914/sx5h-ak08</Description>
+    <Identifier>https://doi.org/10.7914/sx5h-ak08</Identifier>
+    <Station code="PLO01" startDate="2020-06-27T00:40:14.000000Z" endDate="2020-06-27T00:49:46.784640Z">
       <Description>Hydrophone station at PLOCAN coastal node, 17m below surface (1m above 18m seafloor)</Description>
       <Latitude unit="DEGREES">27.762902</Latitude>
       <Longitude unit="DEGREES">-15.6949</Longitude>
@@ -16,7 +16,7 @@
       <Site>
         <Name>PLOCAN_coastal_node</Name>
       </Site>
-      <Channel code="CDH" startDate="2020-06-27T01:40:14.000000Z" endDate="2020-06-27T01:49:46.784640Z" locationCode="00">
+      <Channel code="CDH" startDate="2020-06-27T00:40:14.000000Z" endDate="2020-06-27T00:49:46.784640Z" locationCode="00">
         <Description>RESON TC4032 differential mode hydrophone, mounted on mooring line at 17m depth. Bandwidth: 5Hz-62.5kHz. Recording on Ch-A. Sensitivity: -164dBV re 1uPa. Gain factors: 1/Gain = 0.168941669, 1/Gain_corr = 1.001419</Description>
         <Latitude unit="DEGREES">27.762902</Latitude>
         <Longitude unit="DEGREES">-15.6949</Longitude>

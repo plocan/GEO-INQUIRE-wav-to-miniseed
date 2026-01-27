@@ -22,15 +22,37 @@ Developed by PLOCAN (Plataforma Oceánica de Canarias) as part of the GEO-INQUIR
 - `.station.xml` - StationXML (FDSN standard)
 
 ### Quick start
+
+#### Option A: Using Conda (Recommended for Mac/Linux)
+```bash
+# Create environment from file
+conda env create -f environment.yml
+
+# Activate environment
+conda activate geoinquire
+
+# Launch Jupyter
+jupyter lab
+```
+
+#### Option B: Using pip
 1. Install Python 3.9+
 2. Install requirements:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 3. Open `20260104_GEO-INQUIRE_wav_flac_miniseed_V12.ipynb` in Jupyter
 4. Run the main code cell to launch the GUI
 5. Select WAV files and load your metadata templates
 6. Click **Start Processing**
+
+#### Option C: Google Colab (No Installation)
+1. Go to [Google Colab](https://colab.research.google.com/)
+2. Upload the notebook file
+3. Run the installation cell, then the main code
+
+### Mac Users
+If you're on macOS (especially Apple Silicon M1/M2/M3), see **[README_Mac_Installation.md](README_Mac_Installation.md)** for detailed instructions and troubleshooting.
 
 ### Metadata templates
 Included example templates (customize for your deployment):

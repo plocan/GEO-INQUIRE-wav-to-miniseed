@@ -14,14 +14,14 @@ source=GEO-INQUIRE Acoustic Conversion Framework
 # ============================================
 # NETWORK INFORMATION
 # ============================================
-network_code=YO
-network_description=GEO-INQUIRE Hydrophone Conversion Campaign
-network_identifier=https://doi.org/10.20366/edb.2073
+network_code=P
+network_description=PLOCAN Observatory Network
+network_identifier=https://doi.org/10.7914/sx5h-ak08
 
 # ============================================
 # STATION INFORMATION
 # ============================================
-station_code=YO01
+station_code=PLO01
 station_description=Hydrophone station at PLOCAN coastal node, 17m below surface (1m above 18m seafloor)
 latitude=27.762902
 longitude=-15.6949
